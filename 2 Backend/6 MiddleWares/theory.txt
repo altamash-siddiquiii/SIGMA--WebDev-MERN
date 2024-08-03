@@ -1,0 +1,18 @@
+:---------------------------------- MiddleWares ----------------------------------:
+___________________________________________________________________________________
+___________________________________________________________________________________
+___________________________________________________________________________________
+Middlewares :-
+             It is an intermediary.
+             ----------------------------------------------------
+             REQUEST <----------> MIDDLEWARE <----------> RESPONSE
+             -----------------------------------------------------
+In Express :-
+            Middleware in express are functions that come into play after the server receives the request and
+            before the response is sent to the client.
+            --------------------------------------------------------------------------------------------------
+Common Middleware functions that we used in the previous lectures :
+                                                                :: express.static
+                                                                :: express.urlencoded
+                                                                :: methodOverride
+                                                                :: bodyParser
