@@ -53,7 +53,7 @@ body {
 }
 
 /* Card images */
-.card {
+.listing-card {
     border: none !important;
     margin-bottom: 2rem;
 }
@@ -94,13 +94,16 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
-.dlt-btn {
+
+/* Show page delete btn, Home page btn, Review delete btn */
+.dlt-btn, .home-btn, .review-dlt-btn {
     background-color: #fe424d !important;
     border: none !important;
 }
 
-/* Home page  */
-.home-btn {
+/* Review submit btn */
+.review-submit-btn:hover {
     background-color: #fe424d !important;
+    color: white;
     border: none !important;
 }
