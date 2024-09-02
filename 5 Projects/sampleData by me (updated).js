@@ -464,5 +464,3 @@ const sampleListings = [
     category: "Rooms"  // Added field
   }
 ];
-
-module.exports = { data: sampleListings };
